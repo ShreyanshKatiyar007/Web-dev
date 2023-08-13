@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Form</title>
+</head>
+
+<body>
+     <h3> Registration Form </h3>
+     <form action="/action.php">
+          <input type="text" placeholder=" Username">
+          <br>
+          <br>
+          <input type="password" placeholder=" Password">
+          <br>
+          <br>
+          <h5> Select your Class </h5>
+          <label for="101">
+               <input type="radio" value="Class XI" name="class" id="101">ClassXI
+          </label>
+          <br>
+          <label for="102">
+               <input type="radio" value="Class XII" name="class" id="102">ClassXII
+          </label>
+          <br>
+          <h5> Select your Subject </h5>
+          <label for="Maths">
+               <input type="checkbox" value="Maths" name="subject" id="101"> Maths
+          </label>
+          <br>
+          <label for="Physics">
+               <input type="checkbox" value="Phyiscs" name="subject" id="102"> Physics
+          </label>
+          <br>
+          <label for="Chemistry">
+               <input type="checkbox" value="Chmeistry" name="subject" id="103"> Chemistry
+          </label>
+          <br>
+          <label for="Computer Science">
+               <input type="checkbox" value="Computer Science" name="subject" id="104"> Computer Science
+          </label>
+          <br>
+          <br>
+          <select name="City">
+               <option value="Delhi">Delhi</option>
+               <option value="Uttar Pradesh">Uttar Pradesh</option>
+               <option value="Pune">Pune</option>
+               <option value="Banglore">Banglore</option>
+               <option value="Mumbai">Mumbai</option>
+          </select>
+          <br>
+          <br>
+          <textarea name="feedback" id="101" placeholder="please give your feedback here" rows="5"></textarea>
+          <br>
+          <br>
+          <input type="submit" value="submit">
+     </form>
+</body>
+
+</html>
