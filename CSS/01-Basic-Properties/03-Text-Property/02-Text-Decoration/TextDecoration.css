@@ -1,0 +1,11 @@
+h1 {
+	text-align: center;
+	text-decoration: overline;
+	text-decoration: wavy underline;
+}
+h2 {
+	text-decoration: blue line-through;
+}
+a {
+	text-decoration: none;
+}
