@@ -1,0 +1,9 @@
+#one {
+	text-transform: lowercase;
+}
+#two {
+	text-transform: Capitalize;
+}
+#three {
+	text-transform: uppercase;
+}
