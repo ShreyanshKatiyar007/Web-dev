@@ -1,0 +1,8 @@
+div {
+	text-align: center;
+	height: 100px;
+	width: 100px;
+	background-color: lightgreen;
+	border: 2px double black;
+	border-radius: 20px;
+}
