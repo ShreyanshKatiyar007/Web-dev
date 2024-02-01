@@ -1,0 +1,23 @@
+h1 {
+	height: 100px;
+	width: 200px;
+	background-color: aqua;
+	border-width: 2px;
+	border-style: solid;
+	border-color: red;
+}
+div {
+	height: 100px;
+	width: 100px;
+	background-color: pink;
+	border-width: 2px;
+	border-style: dotted;
+	border-color: brown;
+}
+p {
+	height: 100px;
+	width: 100px;
+	background-color: lightgreen;
+	/* SHORTHAND */
+	border: 2px double black;
+}
