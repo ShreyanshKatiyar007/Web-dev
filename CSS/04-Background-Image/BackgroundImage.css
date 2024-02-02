@@ -1,0 +1,23 @@
+div {
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	display: inline-block;
+}
+#Box1 {
+	background-image: url("cat_image.jpg");
+	background-size: none;
+}
+#Box2 {
+	background-image: url("cat_image.jpg");
+	background-size: auto;
+}
+#Box3 {
+	background-image: url("cat_image.jpg");
+	background-size: contain;
+	/*background-repeat: no-repeat; */
+}
+#Box4 {
+	background-image: url("cat_image.jpg");
+	background-size: cover;
+}
